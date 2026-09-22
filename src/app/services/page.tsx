@@ -41,7 +41,7 @@ export default function Services() {
             Les Départements du Groupe
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-            Découvrez nos pôles d'expertise dédiés à la promotion des valeurs islamiques à travers divers canaux.
+            Découvrez nos pôles d&apos;expertise dédiés à la promotion des valeurs islamiques à travers divers canaux.
           </p>
         </div>
 

@@ -8,7 +8,7 @@ export default function About() {
             Qui sommes-nous ?
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            Créé lors du Ramadan 1444 H (2023), le Groupe Média IRCHADI-YA est dédié à l'information et l'éducation selon les valeurs islamiques.
+            Créé lors du Ramadan 1444 H (2023), le Groupe Média IRCHADI-YA est dédié à l&apos;information et l&apos;éducation selon les valeurs islamiques.
           </p>
         </div>
 
@@ -16,7 +16,7 @@ export default function About() {
           <div className="px-6 py-8 sm:p-10 lg:p-12">
             <h3 className="text-2xl font-bold text-brand-purple mb-4">Mot du Directeur Général</h3>
             <p className="text-lg text-gray-700 italic mb-6">
-              "Notre mission est d'éclairer la Oummah à travers une information juste, une éducation saine et une communication qui rassemble. Nous croyons en un monde où les valeurs de l'Islam contribuent activement à la paix et au développement."
+              &quot;Notre mission est d&apos;éclairer la Oummah à travers une information juste, une éducation saine et une communication qui rassemble. Nous croyons en un monde où les valeurs de l&apos;Islam contribuent activement à la paix et au développement.&quot;
             </p>
             <p className="font-semibold text-gray-900">— M. OUEDRAOGO Abdoul Moubarack, Directeur Général</p>
           </div>

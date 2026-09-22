@@ -9,7 +9,7 @@ export default function Contact() {
             </h2>
             <div className="mt-3 text-lg text-gray-500">
               <p>
-                Une question, une suggestion ou besoin de nos services ? N'hésitez pas à nous contacter.
+                Une question, une suggestion ou besoin de nos services ? N&apos;hésitez pas à nous contacter.
               </p>
             </div>
             <div className="mt-9">

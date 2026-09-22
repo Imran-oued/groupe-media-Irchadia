@@ -22,7 +22,7 @@ export default function Footer() {
               </h3>
             </div>
             <p className="text-purple-100">
-              Informer avec professionnalisme, éduquer avec sagesse et unir les musulmans dans le respect des valeurs de l'Islam.
+              Informer avec professionnalisme, éduquer avec sagesse et unir les musulmans dans le respect des valeurs de l&apos;Islam.
             </p>
           </div>
           <div>
