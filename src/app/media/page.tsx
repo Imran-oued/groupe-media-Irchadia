@@ -4,7 +4,7 @@ export default function Media() {
     {
       id: 1,
       title: "Tafsîr du Saint Coran - Sourate Al-Baqarah",
-      embedUrl: "https://www.youtube.com/embed/AVrNHI4RdPM?si=x4jxwjS-6MZqrHqD", // <-- COLLEZ LE LIEN ICI
+      embedUrl: "https://www.youtube.com/embed/O-mgt6KCqk8?si=Xq1q5JH76gN8VjJD", // <-- COLLEZ LE LIEN ICI
     },
     {
       id: 2,
