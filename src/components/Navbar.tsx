@@ -28,16 +28,18 @@ export default function Navbar() {
           </div>
           
           {/* Menu Desktop */}
-          <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-brand-green transition-colors font-medium">Accueil</Link>
-            <Link href="/about" className="text-gray-700 hover:text-brand-green transition-colors font-medium">À Propos</Link>
-            <Link href="/services" className="text-gray-700 hover:text-brand-green transition-colors font-medium">Départements</Link>
-            <Link href="/media" className="text-gray-700 hover:text-brand-green transition-colors font-medium">Médiathèque</Link>
-            <Link href="/contact" className="px-4 py-2 rounded-md bg-brand-yellow text-white hover:bg-yellow-600 transition-colors font-medium">Contact</Link>
+          <div className="hidden lg:flex items-center space-x-6 text-sm">
+            <Link href="/" className="text-gray-700 hover:text-brand-purple transition-colors font-medium">Accueil</Link>
+            <Link href="/actualites" className="text-gray-700 hover:text-brand-purple transition-colors font-medium">Actualités</Link>
+            <Link href="/media" className="text-gray-700 hover:text-brand-purple transition-colors font-medium">Émissions & Vidéos</Link>
+            <Link href="/education" className="text-gray-700 hover:text-brand-purple transition-colors font-medium">Éducation & Formation</Link>
+            <Link href="/services" className="text-gray-700 hover:text-brand-purple transition-colors font-medium">Départements</Link>
+            <Link href="/about" className="text-gray-700 hover:text-brand-purple transition-colors font-medium">À Propos</Link>
+            <Link href="/contact" className="px-4 py-2 rounded-md bg-brand-yellow text-white hover:bg-yellow-600 transition-colors font-semibold shadow-sm">Contact</Link>
           </div>
 
           {/* Bouton Menu Mobile */}
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="text-gray-700 hover:text-brand-green focus:outline-none p-2"
@@ -57,13 +59,15 @@ export default function Navbar() {
 
       {/* Menu Mobile Dropdown */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full left-0">
-          <div className="px-4 pt-2 pb-6 space-y-2 flex flex-col">
-            <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-green hover:bg-gray-50 rounded-md">Accueil</Link>
-            <Link href="/about" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-green hover:bg-gray-50 rounded-md">À Propos</Link>
-            <Link href="/services" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-green hover:bg-gray-50 rounded-md">Départements</Link>
-            <Link href="/media" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-green hover:bg-gray-50 rounded-md">Médiathèque</Link>
-            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 mt-4 text-base font-medium text-center rounded-md bg-brand-yellow text-white hover:bg-yellow-600 transition-colors">Contact</Link>
+        <div className="lg:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full left-0">
+          <div className="px-4 pt-2 pb-6 space-y-1 flex flex-col">
+            <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2.5 text-base font-medium text-gray-700 hover:text-brand-purple hover:bg-gray-50 rounded-md">Accueil</Link>
+            <Link href="/actualites" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2.5 text-base font-medium text-gray-700 hover:text-brand-purple hover:bg-gray-50 rounded-md">Actualités</Link>
+            <Link href="/media" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2.5 text-base font-medium text-gray-700 hover:text-brand-purple hover:bg-gray-50 rounded-md">Émissions & Vidéos</Link>
+            <Link href="/education" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2.5 text-base font-medium text-gray-700 hover:text-brand-purple hover:bg-gray-50 rounded-md">Éducation & Formation</Link>
+            <Link href="/services" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2.5 text-base font-medium text-gray-700 hover:text-brand-purple hover:bg-gray-50 rounded-md">Départements</Link>
+            <Link href="/about" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2.5 text-base font-medium text-gray-700 hover:text-brand-purple hover:bg-gray-50 rounded-md">À Propos</Link>
+            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 mt-2 text-base font-semibold text-center rounded-md bg-brand-yellow text-white hover:bg-yellow-600 transition-colors shadow-sm">Contact</Link>
           </div>
         </div>
       )}
